@@ -1,4 +1,14 @@
 Details of config:
+{'data_path': 'data/data.json', 'max_length': 2048, 'model_name': 'lmsys/vicuna-7b-v1.5'}
+Number of data: 135904
+Total number of tokens: 120778898
+Average number of tokens: 888.7074552625382
+Number of over length string: 1049
+Number of over length token: 6620
+Part number of tokens: 102584707
+Part average number of tokens: 793.4833931499644
+
+Details of config:
 {'data_path': 'data/data.json', 'max_length': 4096, 'model_name': 'lmsys/vicuna-7b-v1.5'}
 Number of data: 135904
 Total number of tokens: 120778898
@@ -17,4 +27,14 @@ Number of over length string: 27
 Number of over length token: 29
 Part number of tokens: 120433718
 Part average number of tokens: 886.3567102115916
+
+Details of config:
+{'data_path': 'data/data.json', 'max_length': 16384, 'model_name': 'lmsys/vicuna-7b-v1.5'}
+Number of data: 135904
+Total number of tokens: 120778898
+Average number of tokens: 888.7074552625382
+Number of over length string: 3
+Number of over length token: 4
+Part number of tokens: 120697154
+Part average number of tokens: 888.1321118469463
 

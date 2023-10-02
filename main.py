@@ -11,7 +11,10 @@ config = {
     #     , 'article_content'
     #     , 'article_creation_date'
     # ]
-    , 'max_length': 8192
+    # , 'max_length': 2048
+    # , 'max_length': 4096
+    # , 'max_length': 8192
+    , 'max_length': 16384
     , 'model_name': 'lmsys/vicuna-7b-v1.5'
 }
 
@@ -71,7 +74,7 @@ def main():
     part_token_avg_number = \
         part_token_number / (data_number - over_length_token_counter)
 
-    with open(file='output.txt', mode='a', encoding='UTF-8') as file:
+    with open(file='new_output.txt', mode='a', encoding='UTF-8') as file:
         file.write(
             'Details of config:\n'
             + str(config)
